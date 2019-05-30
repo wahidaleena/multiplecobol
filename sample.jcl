@@ -2,7 +2,9 @@
 //             NOTIFY=&SYSUID,REGION=6M                          
 //***************************************************            
 //STEP1    EXEC PGM=INSERT-SORT
-//STEP2    EXEC PGM=SEQUENTIAL-READ                                       
+//STEP2    EXEC PGM=SEQUENTIAL-READ
+//STEP3    EXEC PGM=
+//STEP4    EXEC PGM=
 //STEPLIB  DD DSN=IND220.INDUS.LOADLIB,DISP=SHR                  
 //SYSPRINT DD SYSOUT=*                                           
 //SYSOUT   DD SYSOUT=*                                           
