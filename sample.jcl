@@ -3,8 +3,8 @@
 //***************************************************            
 //STEP1    EXEC PGM=INSERT-SORT
 //STEP2    EXEC PGM=SEQUENTIAL-READ
-//STEP3    EXEC PGM=
-//STEP4    EXEC PGM=
+//STEP3    EXEC PGM=FOR-LOOP
+//STEP4    EXEC PGM=STRUCT-EXAMPLE
 //STEPLIB  DD DSN=IND220.INDUS.LOADLIB,DISP=SHR                  
 //SYSPRINT DD SYSOUT=*                                           
 //SYSOUT   DD SYSOUT=*                                           
